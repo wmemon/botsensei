@@ -2,7 +2,7 @@
 
 ![alt text](image.png)
 
-*BOT-Sensei* is a modern *Next.js + Tailwind CSS SaaS landing page template* designed for AI/chatbot businesses, educational platforms, and SaaS products. Perfect for companies looking to showcase their AI-powered solutions with a professional and engaging online presence.
+**BOT-Sensei** is a modern **Next.js + Tailwind CSS SaaS landing page template** designed for AI/chatbot businesses, educational platforms, and SaaS products. Perfect for companies looking to showcase their AI-powered solutions with a professional and engaging online presence.
 
 ## ✨ Key Features
 
@@ -21,7 +21,7 @@ Check out the live demo here 👉 [https://botsensei.vercel.app/](https://botsen
 
 ## 🚀 Getting Started
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ### Prerequisites
 
@@ -31,13 +31,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [create-next-
 ### Installation
 
 1. Clone the repository:
-bash
+```bash
 git clone https://github.com/yourusername/bot-sensei.git
-
+```
 
 2. Install dependencies:
-   
-bash
+```bash
 cd bot-sensei
 npm install
 # or
@@ -46,7 +45,7 @@ yarn install
 pnpm install
 # or
 bun install
-
+```
 
 3. Run the development server:
 ```bash
@@ -57,13 +56,13 @@ yarn dev
 pnpm dev
 # or
 bun dev
-
+```
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## 📁 Project Structure
 
-
+```
 bot-sensei/
 ├── app/
 │   ├── components/
@@ -75,7 +74,7 @@ bot-sensei/
 │   └── globals.css
 ├── types/
 └── utils/
-
+```
 
 ## 🛠 Tech Stack
 
@@ -86,9 +85,9 @@ bot-sensei/
 
 ## 📝 Customization
 
-You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [next/font](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load Geist, the custom font family from Vercel.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load Geist, the custom font family from Vercel.
 
 ## 🚀 Deployment
 
